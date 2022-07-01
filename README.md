@@ -1,6 +1,6 @@
 # sushi-tastes
 The IMDB of Sushi
-![image](https://user-images.githubusercontent.com/90817505/176967360-f33786ab-f417-4433-86f9-abc2dccca3af.png)
+![image](https://user-images.githubusercontent.com/90817505/176967922-60c6a40d-3c81-4f3b-a85a-5019f6543366.png)
 ![](2022-07-01-14-40-08.gif)
 
 
