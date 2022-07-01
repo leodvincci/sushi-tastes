@@ -1,23 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import logo from "./logo.png"
+import SushiCard from "./SushiCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+
+
+
+      <nav>
+
+        <img id={"logo-img"} src={logo} alt=""/>
+
+          <ul>
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Delivery</li>
+            <li>About</li>
+            <li>Reviews</li>
+            <li>Contact</li>
+
+            <li>🫀</li>
+            <li>🕵️‍♂️</li>
+            <li>🛒</li>
+          </ul>
+
+      </nav>
+
+    <div style={{ margin:"75px auto", maxWidth:"1900px",width:"auto",display:"flex", justifyContent:"center",alignItems:"center", flexWrap:"wrap"}}>
+        <SushiCard/>
+        <SushiCard/>
+        <SushiCard/>
+        <SushiCard/>
+        <SushiCard/>
+        <SushiCard/>
+        <SushiCard/>
+        <SushiCard/>
+        <SushiCard/>
+
+        <SushiCard/>
+
+
+
+    </div>
+
+
     </div>
   );
 }

@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+body{
+    margin: 0;
+    background-color: #202020;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    /*border: 6px crimson solid;*/
+    width: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#logo-img{
+    width: auto;
+    margin: 50px 50px;
+    /*border: 1px dotted seagreen;*/
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#container{
+    padding: 1px;
+    border:3px crimson solid;
+    margin: 0 auto;
+
 }
 
-.App-link {
-  color: #61dafb;
+ul{
+
+    padding: 1px;
+    display: flex;
+    /*border:3px dotted seagreen;*/
+    width: auto;
+    margin-left: auto;
+    list-style-type: none;
+    font-size: 20px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 20px;
+    font-family: "Noto Sans";
+    color: #202020;
+}
+
+li:hover{
+    color: #fc672c;
+
+    cursor: pointer;
+}
+
+
+#my-card{
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 275px;
+    height: 500px;
+    padding: 15px;
+    margin: 50px 10px;
+    border-radius: 18px;
+}
+
+#card-img{
+
+    width: 275px;
+    height: 45%;
+    border-radius: 4px;
+    margin: auto;
+
+}
+
+#line{
+
+    border-bottom: 2px solid #c7c5c5;
+    width: 200px;
+    margin: auto auto;
+}
+
+fa-star{
+    height: 50px;
+    color: yellow;
+    width: 50px;
+}
+
+
+#ratings{
+
+    padding: 20px;
+    margin: auto auto;
+
+}
+
+#heart-comment{
+    padding: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+    margin:  20px auto;
 }
