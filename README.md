@@ -2,7 +2,8 @@
 The IMDB of Sushi
 ![image](https://user-images.githubusercontent.com/90817505/176972956-dd8e4c7a-969e-436b-ae0a-e9b7515de238.png)
 
-![](2022-07-01-14-40-08.gif)
+![2022-07-01-17-25-21](https://user-images.githubusercontent.com/90817505/176974855-a1fe95e5-b928-40b0-964a-5845c10fcd83.gif)
+
 
 
 # Getting Started with Create React App
