@@ -1,9 +1,8 @@
 # sushi-tastes
 The IMDB of Sushi
+![image](https://user-images.githubusercontent.com/90817505/176967360-f33786ab-f417-4433-86f9-abc2dccca3af.png)
 ![](2022-07-01-14-40-08.gif)
 
-
-![image](https://user-images.githubusercontent.com/90817505/176967360-f33786ab-f417-4433-86f9-abc2dccca3af.png)
 
 # Getting Started with Create React App
 
