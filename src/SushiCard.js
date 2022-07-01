@@ -9,9 +9,21 @@ function SushiCard(){
 
            <img id={"card-img"} src={sushi_img} alt=""/>
 
-           <div> <p style={{fontFamily:"sans-serif", fontSize:"24px",fontWeight:"bolder",marginBottom:"0px"}}> Fire Roll </p> </div>
-           <div> <p> <span style={{fontFamily:"sans-serif",fontWeight:"bold"}}>Ingredients</span>: King crab, white fish, tomato, asparagus and tobiko tempura with spicy mayo.</p> </div>
+           <div> <p style={{color:"#ff330d",fontFamily:"sans-serif", fontSize:"24px",fontWeight:"bolder",marginBottom:"0px"}}> Fire Roll </p> </div>
 
+           <div style={{padding:"10px"}}> <p> <span style={{fontFamily:"sans-serif",fontWeight:"bold"}}></span>King crab, white fish, tomato, asparagus and tobiko tempura with spicy mayo.</p> </div>
+
+
+
+
+           <div id={"ratings"}>
+               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
+               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
+               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
+               <i style={{color:"gold"}} className="fa-regular fa-star fa-2xl"> </i>
+           </div>
+
+           <div id={"line"}> </div>
            <div id={"heart-comment"}>
 
                <div>
@@ -24,16 +36,6 @@ function SushiCard(){
 
                </div>
 
-           </div>
-
-           <div id={"line"}> </div>
-
-
-           <div id={"ratings"}>
-               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
-               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
-               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
-               <i style={{color:"gold"}} className="fa-regular fa-star fa-2xl"> </i>
            </div>
 
 

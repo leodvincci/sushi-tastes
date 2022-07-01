@@ -27,7 +27,7 @@ function App() {
 
       </nav>
 
-    <div style={{ margin:"75px auto", maxWidth:"1900px",width:"auto",display:"flex", justifyContent:"center",alignItems:"center", flexWrap:"wrap"}}>
+    <div style={{ margin:"75px auto", maxWidth:"80%",width:"auto",display:"flex", justifyContent:"center",alignItems:"center", flexWrap:"wrap"}}>
         <SushiCard/>
         <SushiCard/>
         <SushiCard/>
