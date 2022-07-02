@@ -26,14 +26,27 @@ nav{
 
 ul{
 
-    padding: 1px;
+    padding: 0 5%;
     display: flex;
+    margin-left: auto;
     /*border:3px dotted seagreen;*/
     width: auto;
-    margin-left: auto;
     list-style-type: none;
     font-size: 20px;
 
+}
+
+#my-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    padding-left: 35px;
+    align-items: center;
+}
+
+#my-icons:hover{
+    color: #fc672c;
+    cursor: pointer;
 }
 
 li{
@@ -42,11 +55,12 @@ li{
     margin-right: 20px;
     font-family: "Noto Sans";
     color: #202020;
+    transition-duration: 200ms;
 }
 
 li:hover{
     color: #fc672c;
-
+    text-decoration-line: underline;
     cursor: pointer;
 }
 
@@ -56,10 +70,11 @@ li:hover{
     display: flex;
     flex-direction: column;
     background-color: #faf9f9;
-    width:400px;
+    width:350px;
     height: 500px;
     padding: 25px;
-    margin: 50px 40px;
+    padding-bottom: 35px;
+    margin: 80px 40px;
     border-radius: 30px;
     box-shadow: 5px 5px  50px #26262c;
     font-family: 'Montserrat', sans-serif;
@@ -68,8 +83,7 @@ li:hover{
 
 #card-img{
 
-    width: 60%;
-    height: 50%;
+    width: 70%;
     border-radius: 8px;
     margin: auto;
     margin-top: 10px;
@@ -85,12 +99,23 @@ li:hover{
     margin: auto auto;
 }
 
-fa-star{
-    height: 50px;
-    color: yellow;
-    width: 50px;
+.change-color{
+    color:#fc3c18;
+    transition-duration: 200ms;
 }
 
+.change-color_2{
+    color: #f8bc30;
+}
+.change-color_2:hover{
+    color: gold;
+    cursor: pointer;
+}
+
+.change-color:hover{
+    cursor: pointer;
+    color: #ab0000;
+}
 
 #ratings > i{
 

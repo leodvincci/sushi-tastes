@@ -11,28 +11,28 @@ function SushiCard(){
 
            <div> <p style={{color:"#ff330d",fontFamily:"sans-serif", fontSize:"24px",fontWeight:"bolder",marginBottom:"0px"}}> Fire Roll </p> </div>
 
-           <div style={{padding:"10px"}}> <p> <span style={{fontFamily:"sans-serif",fontWeight:"bold"}}></span>King crab, white fish, tomato, asparagus and tobiko tempura with spicy mayo.</p> </div>
+           <div style={{padding:"10px"}}> <p style={{fontFamily:"Montserrat",fontWeight:"bolder",paddingBottom:"10px"}} > King crab, white fish, tomato, asparagus and tobiko tempura with spicy mayo.</p> </div>
 
 
 
 
            <div id={"ratings"}>
-               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
-               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
-               <i style={{color:"gold"}} className="fa-solid fa-star fa-2xl"></i>
-               <i style={{color:"gold"}} className="fa-regular fa-star fa-2xl"> </i>
+               <i  className="fa-solid fa-star fa-2xl change-color_2"></i>
+               <i  className="fa-solid fa-star fa-2xl change-color_2"></i>
+               <i  className="fa-solid fa-star fa-2xl change-color_2"></i>
+               <i  className="fa-regular fa-star fa-2xl change-color_2"> </i>
            </div>
 
            <div id={"line"}> </div>
            <div id={"heart-comment"}>
 
                <div>
-                   <i style={{color:"#fc3c18"}} className="fa-regular fa-heart fa-2xl"></i>
+                   <i id={"fav-icon"} className="fa-regular fa-heart fa-2xl change-color"></i>
 
                </div>
 
                <div>
-                   <i style={{color:"#fc3c18"}} className="fa-regular fa-comment fa-2xl"></i>
+                   <i className="fa-regular fa-comment fa-2xl change-color"></i>
 
                </div>
 
