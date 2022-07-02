@@ -53,9 +53,10 @@ li{
     display: flex;
     margin-left: 40px;
     margin-right: 20px;
-    font-family: "Noto Sans";
+    font-family: 'Montserrat', sans-serif;
     color: #202020;
     transition-duration: 200ms;
+    font-size: 17px;
 }
 
 li:hover{
@@ -70,11 +71,11 @@ li:hover{
     display: flex;
     flex-direction: column;
     background-color: #faf9f9;
-    width:350px;
+    width:300px;
     height: 500px;
     padding: 25px;
     padding-bottom: 35px;
-    margin: 80px 40px;
+    margin: 80px 15px;
     border-radius: 30px;
     box-shadow: 5px 5px  50px #26262c;
     font-family: 'Montserrat', sans-serif;
