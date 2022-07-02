@@ -14,9 +14,7 @@ function App() {
 
           <ul>
               <li>Home</li>
-              <li>Discover</li>
               <li>Order Sushi</li>
-              <li>Favorites</li>
               <div id={"my-icons"}>
                   <i className="fa-solid fa-user fa-2xl"></i>
               </div>
@@ -26,21 +24,22 @@ function App() {
       </nav>
 
     <div style={{ margin:"40px auto",maxWidth:"80%",width:"auto",display:"flex", justifyContent:"center",alignItems:"center", flexWrap:"wrap"}}>
-        <SushiCard/>
-        <SushiCard/>
-        <SushiCard/>
-        <SushiCard/>
-        <SushiCard/>
-        <SushiCard/>
-        <SushiCard/>
-        <SushiCard/>
-        <SushiCard/>
-
-        <SushiCard/>
 
 
+
+        <SushiCard/>
+        <SushiCard/>
+        <SushiCard/>
 
     </div>
+
+        <div id={"arrow-left"}>
+            <i className="fa-solid fa-chevron-left fa-3x"></i>
+        </div>
+
+        <div id={"arrow-right"}>
+            <i className="fa-solid fa-chevron-right fa-3x"></i>
+        </div>
 
 
     </div>

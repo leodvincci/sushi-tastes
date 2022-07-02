@@ -11,6 +11,62 @@ nav{
     width: auto;
 }
 
+#arrow-left{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    display: flex;
+    margin: 0 auto;
+    color: #ffc857;
+}
+
+#arrow-left:hover{
+    color: #6c987c;
+    cursor: pointer;
+}
+
+#arrow-right:hover{
+    color: #6c987c;
+    cursor: pointer;
+}
+
+#arrow-left:active{
+    color: darkslategrey;
+}
+
+#arrow-right:active{
+    color: darkslategrey;
+}
+
+
+#arrow-right{
+    position: absolute;
+    bottom: 40%;
+    right: 10%;
+    display: flex;
+    margin: 0 auto;
+    color: #ffc857;
+}
+
+button{
+
+    width: 100px;
+    height: 60px;
+    color: whitesmoke;
+    background-color: seagreen;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+button:hover{
+    background-color: #3cb973;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #2b8352;
+}
+
 #logo-img{
     width: auto;
     margin: 50px 50px;
@@ -75,11 +131,17 @@ li:hover{
     height: 500px;
     padding: 25px;
     padding-bottom: 35px;
-    margin: 80px 15px;
+    margin: 10px 15px;
     border-radius: 30px;
     box-shadow: 5px 5px  50px #26262c;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    transition-duration: 400ms;
+}
+
+#my-card:hover{
+    width:400px;
+    height: 600px;
 }
 
 #card-img{
@@ -101,15 +163,15 @@ li:hover{
 }
 
 .change-color{
-    color:#fc3c18;
+    color: #ff5c3c;
     transition-duration: 200ms;
 }
 
 .change-color_2{
-    color: #f8bc30;
+    color: #044967;
 }
 .change-color_2:hover{
-    color: gold;
+    color: seagreen;
     cursor: pointer;
 }
 
@@ -120,7 +182,7 @@ li:hover{
 
 #ratings > i{
 
-    padding: 10px;
+    padding: 15px;
     margin: auto auto;
 
 }

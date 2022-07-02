@@ -9,18 +9,23 @@ function SushiCard(){
 
            <img id={"card-img"} src={sushi_img} alt=""/>
 
-           <div> <p style={{color:"#ff330d",fontFamily:"sans-serif", fontSize:"24px",fontWeight:"bolder",marginBottom:"0px"}}> Fire Roll </p> </div>
+           <div> <p style={{color:"#ff330d",fontFamily:"Montserrat", fontSize:"24px",fontWeight:"550",letterSpacing:"2px",marginBottom:"0px"}}> Fire Roll </p> </div>
 
-           <div style={{padding:"10px"}}> <p style={{fontFamily:"Montserrat",fontWeight:"bolder",paddingBottom:"10px"}} > King crab, white fish, tomato, asparagus and tobiko tempura with spicy mayo.</p> </div>
+           <div style={{padding:"10px"}}> <p style={{fontFamily:"Montserrat",fontWeight:"350",paddingBottom:"10px"}} > King crab, white fish, tomato, asparagus and tobiko tempura with spicy mayo.</p> </div>
 
 
 
 
            <div id={"ratings"}>
-               <i  className="fa-solid fa-star fa-2xl change-color_2"></i>
-               <i  className="fa-solid fa-star fa-2xl change-color_2"></i>
-               <i  className="fa-solid fa-star fa-2xl change-color_2"></i>
-               <i  className="fa-regular fa-star fa-2xl change-color_2"> </i>
+
+               <i className="fa-regular fa-face-grin-tongue-squint fa-2xl change-color_2"></i>
+               <i className="fa-regular fa-face-meh fa-2xl change-color_2 "></i>
+               <i className="fa-regular fa-face-smile fa-2xl change-color_2"></i>
+
+               {/*<i  className="fa-solid fa-star fa-2xl change-color_2"></i>*/}
+               {/*<i  className="fa-solid fa-star fa-2xl change-color_2"></i>*/}
+               {/*<i  className="fa-solid fa-star fa-2xl change-color_2"></i>*/}
+               {/*<i  className="fa-regular fa-star fa-2xl change-color_2"> </i>*/}
            </div>
 
            <div id={"line"}> </div>
