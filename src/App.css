@@ -194,3 +194,59 @@ li:hover{
     width: 150px;
     margin:  20px auto;
 }
+
+#form-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px rgb(253, 100, 100) solid;
+    background-color: #fc672c;
+    width: auto;
+    height: 720px;
+}
+
+#form-box{
+    border: 4px solid lavenderblush;
+    background-color: white;
+    width: 40%;
+    height: 60%;
+    margin: 80px auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+
+}
+
+#submit-review-btn{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+#review-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#review-title{
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    margin: 60px auto;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 18px;
+    border: #838383 outset 1px;
+
+}
+
+#review-text{
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 24px;
+    border:2px outset #c0c0c0;
+    resize: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
