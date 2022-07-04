@@ -2,10 +2,14 @@ import "./App.css"
 import sushi_img from "./fire-roll.jpg"
 import axios from "axios";
 import {useEffect, useState} from "react";
+import {Routes, Route, useNavigate} from 'react-router-dom';
 function SushiCard(props){
 
-
-
+    const navigate = useNavigate();
+    const navigateToReview = () => {
+        // 👇️ navigate to /contacts
+        navigate('/review');
+    };
     return(
 
        <div id={"my-card"}>
@@ -41,7 +45,7 @@ function SushiCard(props){
                </div>
 
                <div>
-                   <i className="fa-regular fa-comment fa-2xl change-color"></i>
+                   <i onClick={navigateToReview} className="fa-regular fa-comment fa-2xl change-color"></i>
 
                </div>
 

@@ -15,10 +15,10 @@ function SushiReviewPage(){
                         </form>
                     </div>
 
+                    <button id={"submit-review-btn"}> submit </button>
 
                 </div>
 
-                <button id={"submit-review-btn"}> submit </button>
 
             </div>
         </div>

@@ -1,20 +1,38 @@
 import "./App.css"
-import logo from "./logo.png"
-import SushiCard from "./SushiCard";
-import axios from "axios";
-import {useEffect, useState} from "react";
 import SushiDiscoveryPage from "./SushiDiscoveryPage";
 import NavComponent from "./NavComponent";
+import {BrowserRouter, Route, Routes} from "react-router-dom"
 import SushiReviewPage from "./SushiReviewPage";
-
 function App() {
 
   return (
     <div >
+        <BrowserRouter>
+            <Routes>
+                <Route
+                    path={"/"}
+                    element={
+                    <div>
+                        <NavComponent/>
+                        <SushiDiscoveryPage/>
+                    </div>
+                }
+                />
 
-        <NavComponent/>
-        <SushiDiscoveryPage/>
-        {/*<SushiReviewPage/>*/}
+                <Route
+                    path={"/review"}
+                    element={
+                        <div>
+                            <NavComponent/>
+                            <SushiReviewPage/>
+                        </div>
+                    }
+                />
+
+
+            </Routes>
+
+        </BrowserRouter>
 
     </div>
   );

@@ -1,7 +1,14 @@
 import logo from "./logo.png";
+import {Routes, Route, useNavigate} from 'react-router-dom';
 
 
 function NavComponent(){
+
+    const navigate = useNavigate();
+    const navigateToHome = () => {
+        // 👇️ navigate to /contacts
+        navigate('/');
+    };
 
     return(
         <div>
@@ -10,7 +17,7 @@ function NavComponent(){
                 <img id={"logo-img"} src={logo} alt=""/>
 
                 <ul>
-                    <li>Home</li>
+                    <li onClick={navigateToHome}>Home</li>
                     <li>Order Sushi</li>
                     <div id={"my-icons"}>
                         <i className="fa-solid fa-user fa-2xl"></i>
