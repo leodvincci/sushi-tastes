@@ -27,21 +27,32 @@ function SushiCard(props){
 
 
 
-           <div id={"ratings"}>
+           <div id={"ratings"} style={{display:"flex",justifyContent:"center",paddingTop:"13px",height:"9%"}}>
 
-               <i id={"yuk"} className="fa-regular fa-face-grin-tongue-squint fa-2xl change-color_2"></i>
-               <i id={"yak"} className="fa-regular fa-face-meh fa-2xl change-color_2 "></i>
-               <i id={"yum"} className="fa-regular fa-face-smile fa-2xl change-color_2"></i>
+               <div style={{paddingRight:"30px"}}>
+                   <i id={"yuk"} className="fa-regular fa-face-grin-tongue-squint fa-2xl change-color_2"></i>
+                   <p style={{color:"#2b2d42",fontFamily:"Roboto",fontWeight:"600",fontSize:"12px"}}>0</p>
+               </div>
+
+               <div style={{paddingRight:"30px"}}>
+                   <i id={"yak"} className="fa-regular fa-face-meh fa-2xl change-color_2 "></i>
+                   <p style={{color:"#2b2d42",fontFamily:"Roboto",fontWeight:"600",fontSize:"12px"}}>0</p>
+               </div>
+
+               <div>
+                   <i id={"yum"} className="fa-regular fa-face-smile fa-2xl change-color_2"></i>
+                   <p style={{color:"#2b2d42",fontFamily:"Roboto",fontWeight:"600",fontSize:"12px"}}>0</p>
+               </div>
 
            </div>
 
            <div id={"line"}> </div>
            <div id={"heart-comment"}>
 
-               <div>
-                   <i id={"fav-icon"} className="fa-regular fa-heart fa-2x change-color"></i>
+               {/*<div>*/}
+               {/*    <i id={"fav-icon"} className="fa-regular fa-heart fa-2x change-color"></i>*/}
 
-               </div>
+               {/*</div>*/}
 
                <div>
                    <i onClick={navigateToUserReviews} className="fa-solid fa-square-poll-horizontal fa-2x change-color"></i>
