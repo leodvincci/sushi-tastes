@@ -1,6 +1,8 @@
 # sushi-tastes
 The IMDB of Sushi
+
 https://sushi-tastes.herokuapp.com/
+
 ![](src/2022-07-04-11-46-47.gif)
 
 # Getting Started with Create React App
