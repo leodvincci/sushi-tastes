@@ -70,6 +70,7 @@ function App() {
                         key = {sushi.id}
                         sushiRollName = {sushi.name}
                         sushiRollDescription = {sushi.description}
+                        imageLink = {sushi.imgLink}
                     />
             ) )
         }

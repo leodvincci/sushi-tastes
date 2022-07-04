@@ -10,7 +10,8 @@ function SushiCard(props){
 
        <div id={"my-card"}>
 
-           <img id={"card-img"} src={sushi_img} alt=""/>
+           {console.log(props.imageLink)}
+           <img id={"card-img"} src={props.imageLink} alt="picture of sushi roll"/>
 
            <div> <p style={{color:"#ff330d",fontFamily:"Montserrat", fontSize:"24px",fontWeight:"550",letterSpacing:"2px",marginBottom:"0px"}}> {props.sushiRollName} </p> </div>
 
