@@ -3,6 +3,7 @@ import SushiDiscoveryPage from "./SushiDiscoveryPage";
 import NavComponent from "./NavComponent";
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 import SushiReviewPage from "./SushiReviewPage";
+import SushiUserReviewsPage from "./SushiUserReviewsPage";
 function App() {
 
   return (
@@ -20,7 +21,7 @@ function App() {
                 />
 
                 <Route
-                    path={"/review"}
+                    path={`/review/`}
                     element={
                         <div>
                             <NavComponent/>
@@ -29,6 +30,16 @@ function App() {
                     }
                 />
 
+
+                <Route
+                    path={`/userReviews/`}
+                    element={
+                        <div>
+                            <NavComponent/>
+                            <SushiUserReviewsPage/>
+                        </div>
+                    }
+                />
 
             </Routes>
 
