@@ -1,17 +1,20 @@
 import "./App.css"
 import sushi_img from "./fire-roll.jpg"
-function SushiCard(){
+import axios from "axios";
+import {useEffect, useState} from "react";
+function SushiCard(props){
 
 
-   return(
+
+    return(
 
        <div id={"my-card"}>
 
            <img id={"card-img"} src={sushi_img} alt=""/>
 
-           <div> <p style={{color:"#ff330d",fontFamily:"Montserrat", fontSize:"24px",fontWeight:"550",letterSpacing:"2px",marginBottom:"0px"}}> Fire Roll </p> </div>
+           <div> <p style={{color:"#ff330d",fontFamily:"Montserrat", fontSize:"24px",fontWeight:"550",letterSpacing:"2px",marginBottom:"0px"}}> {props.sushiRollName} </p> </div>
 
-           <div style={{padding:"10px"}}> <p style={{fontFamily:"Montserrat",fontWeight:"350",paddingBottom:"10px"}} > King crab, white fish, tomato, asparagus and tobiko tempura with spicy mayo.</p> </div>
+           <div style={{padding:"10px"}}> <p style={{fontFamily:"Montserrat",fontWeight:"350",paddingBottom:"10px"}} > {props.sushiRollDescription}</p> </div>
 
 
 
